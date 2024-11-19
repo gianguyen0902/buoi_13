@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industrial Design</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #12163c;
+            color: white;
+            background-image: url("bg_header.jpg")
+        }
+
+        .navbar {
+            width: 70%;
+            background-color: #e02424;
+            display: flex;
+            margin: 20px auto;
+            padding: 20px;
+            position: relative;
+        }
+
+        .navbar .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+            display: flex;
+            align-items: center;
+            width: 40%;
+        }
+
+        .navbar .logo .logo-image {
+           width: 200px;
+            height: 80px;
+        }
+
+        .navbar .menu {
+            margin-left: auto;
+            display: flex;
+            gap: 20px;
+            width: 60%;
+        }
+
+        .navbar .menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 20px;
+        }
+
+        .navbar .menu a:hover {
+            border-bottom: solid 2px #f39c12;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 span {
+            color: #e02424;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.8;
+        }
+
+        .hero .cta {
+            display: inline-block;
+            background-color: #e02424;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero .cta:hover {
+            background-color: #d01717;
+        }
+
+        .background {
+            background-image: url("img.png");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+
+    <div class="navbar">
+        <div class="logo">
+            <img class="logo-image" src="logo.png"></img>
+        </div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Services</a>
+            <a href="#">Projects</a>
+            <a href="#">Blog/News</a>
+            <a href="#">Shop</a>
+        </div>
+    </div>
+
+    <div class="hero">
+        <h1>Think Big. <span>We do.</span></h1>
+        <p>Capitalise on low hanging fruit to identify a ballpark.</p>
+        <a href="#" class="cta">Our Portfolio</a>
+    </div>
+</body>
+</html>
